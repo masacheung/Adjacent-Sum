@@ -1,3 +1,4 @@
+# Soluation 1
 def adjacent_sum(arr)
   ans = []
   count = 0
@@ -7,6 +8,19 @@ def adjacent_sum(arr)
   end
   return ans
 end
+
+# Soluation 2
+# def adjacent_sum(arr)
+# 	new_arr = []
+  	
+# 	arr.each.with_index do |num, idx|
+#     	if idx != arr.length - 1
+#           new_arr << arr[idx] + arr[idx+1]
+#         end
+#     end
+  
+#   return new_arr
+# end
 
 print adjacent_sum([3, 7, 2, 11]) #=> [10, 9, 13], because [ 3+7, 7+2, 2+11 ]
 puts
